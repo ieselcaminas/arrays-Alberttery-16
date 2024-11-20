@@ -1,8 +1,6 @@
-package Tema_2;
-
 import java.util.Scanner;
 
-class Ej_7 {
+public class Ej_7 {
     public static int calculaMaximo(String[] cadenas){
         int maxima = cadenas[0].length();
         for (int i = 0; i < cadenas.length; i++){

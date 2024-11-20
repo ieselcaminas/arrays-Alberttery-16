@@ -1,15 +1,11 @@
-package Tema_2;
-
-import java.util.Scanner;
-
-class Ej_8 {
+public class Ej_8 {
     public static int Positivos(int[] numeros){
 
         int suma = 0;
         for (int i = 0; i < numeros.length; i++){
 
             if (numeros [i] > 0){
-                suma = suma + numeros[i];
+                suma = suma + numeros[i]; //para sumar 1 en vez de todo el numero completo se cambiaria numeros[i] por "1"
             }
         }
         return suma;
@@ -34,8 +30,8 @@ class Ej_8 {
         int suma = Positivos(numeros);
         int resta = Negativos(numeros);
 
-        System.out.println("Los numeros positivos son:" + suma);
-        System.out.println("Los numeros negativos son:" + resta);
+        System.out.println("La numeración positiva es: " + suma);
+        System.out.println("La numeración negativa es: " + resta);
     }
 }
 
